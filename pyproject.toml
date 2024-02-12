@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "paddleocrlearning"
+version = "1.0.0"
+description = "Learning using Paddle OCR for text detection and recognition"
+authors = ["Sharizan Redzuan <sharizan_81@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+dev = "paddleocrlearning.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pdf2image = "^1.17.0"
+poppler-utils = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

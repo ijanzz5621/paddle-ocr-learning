@@ -1,0 +1,6 @@
+link: https://www.youtube.com/watch?v=HZh31OGiQRQ
+
+stop at: 6:07
+
+must install https://github.com/oschwartz10612/poppler-windows before can use the pdf2image package
+
